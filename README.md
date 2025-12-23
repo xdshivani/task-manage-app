@@ -1,16 +1,53 @@
-# React + Vite
+# 📝 Task Manager App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Task Manager application** built using **React** that allows users to **create, edit, delete, and manage tasks** efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ➕ Create new tasks  
+- ✏️ Edit existing tasks  
+- ❌ Delete tasks  
+- ✅ Mark tasks as completed / active  
+- 🔍 Search tasks  (need to be added)
+- 🗂️ Filter tasks (All / Active / Completed)  (need to be added)
+- 🎯 Priority & category support (optional)  (need to be added)
+- 💾 Local state management (can be extended to backend) (need to be added)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **Vite**
+- **JavaScript (ES6+)**
+- **Tailwind CSS** (optional)
+- **HTML5 & CSS3**
+
+---
+
+---
+
+## ⚙️ Prerequisites
+
+Make sure you have the following installed:
+
+- **Node.js** (v16 or above)
+- **npm** or **yarn**
+
+## Check versions:
+
+- node -v
+- npm -v
+
+## How to Run the Project
+- Clone the Repository
+- git clone <your-repo-url>
+- cd task-manager
+
+## Install Dependencies
+- npm install
+
+## Start Development Server
+- npm run dev
